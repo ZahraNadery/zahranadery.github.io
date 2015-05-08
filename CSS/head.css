@@ -1,0 +1,149 @@
+/*******************************
+            Global
+*******************************/
+
+html {
+  font-size: 14px;
+}
+
+
+/*******************************
+            Global
+*******************************/
+
+#head .menu .right.menu > .mobile.item {
+  display: none;
+}
+
+/*--------------
+    Masthead
+---------------*/
+
+#head{
+  margin:0px;
+  }
+#headerBlog{
+  width:100%  ;
+    font-family: myfont;
+    background: #42bd99;
+   
+   border-radius: 0px;
+  }
+  
+#head .masthead {
+  /*background-image: url(images/bg.jpg);*/
+  margin: 0em;
+  padding: 0rem 0rem;
+}
+#head .masthead .column {
+  position: relative;
+}
+#head .masthead .information {
+  margin: 10em 1em 1em 350px;
+}
+/*#head .masthead .information p {
+  max-width: 600px;
+}*/
+#head .masthead .image {
+  position: absolute;
+  left: 0%;
+  bottom: -110px;
+}
+
+/*--------------
+    Ribbons
+---------------*/
+
+#head .segment h1 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+#head .vertical.segment {
+  padding: 12rem 0rem;
+}
+
+#head .feature.segment {
+  margin: 0em;
+  padding: 6rem 0rem;
+}
+#head .feature.segment p {
+  min-height: 50px;
+}
+
+#head .selection.list {
+  margin: 0em -0.5em;
+}
+
+#head .logo.row {
+  height: 10rem;
+}
+
+#searchItem{
+	
+}
+
+/*--------------
+    Footer
+---------------*/
+
+#head .footer.segment {
+  background-color: #000000;
+  padding: 3rem 0rem;
+}
+
+
+/*******************************
+          Responsive
+*******************************/
+
+/* Mobile Only */
+@media only screen and (max-width : 768px) {
+
+  #head .menu .right.menu > .item {
+    display: none;
+  }
+
+  #head .menu .right.menu > .mobile.item {
+    display: block;
+  }
+  #head .menu .right.menu > .mobile.item .menu {
+    left: auto;
+    right: 0em;
+  }
+
+  #head h1 {
+    font-size: 1.5em;
+  }
+  #head .masthead.segment .information {
+    margin-left: 170px;
+  }
+
+  #head .masthead.segment .image {
+    width: 170px;
+  }
+
+  #head .masthead.segment .button {
+    font-size: 1rem;
+  }
+
+  #head .overview .divided.grid .header .icon {
+    font-size: 1.5em;
+  }
+
+  #head .overview .divided.grid .header + p {
+    min-height: 0px;
+  }
+
+  #head .masthead.segment .column {
+    font-size: 0.7rem;
+  }
+
+  #head .masthead.segment .column p {
+    display: none;
+  }
+
+  #head .selection.list .right.floated {
+    display: none;
+  }
+}

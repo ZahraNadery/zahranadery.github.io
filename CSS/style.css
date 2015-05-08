@@ -1,0 +1,321 @@
+
+@font-face {
+    font-family: myfont;
+    src: url(../fonts/BKOODKBD.TTF);
+}
+    #form{
+	width:35%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12%;
+	margin-bottom: auto;
+	height : 38%;
+	text-align:center;
+    border-spacing :25px;
+	border-radius: 25px;
+    padding-top : 30px;
+	align:center;
+	align : middle;
+	background-color:#42bd99;
+}
+
+#labelEmail{
+	color:white;
+	font-family : myfont;
+   font-size : 20px;
+}
+   #email{
+   margin-top : 7px;
+   font-size:20px;
+   width:60%;}
+    #labelPassword{
+	font-family :myfont;
+	margin-top:5px;
+	 color:white;
+	padding-top : 5px;
+   font-size : 20px;
+   }
+   #passwordd{
+   margin-top : 7px;
+   font-size:20px;
+ margin-left:auto;
+ margin-right:auto;
+  width:60%;
+  align:center;}
+   #loginButton{
+ 
+   width:25%;
+   height : 15%;
+  
+  font-family:myfont;
+
+			}
+			.MyButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9));
+	background:-moz-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-webkit-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-o-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-ms-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9',GradientType=0);
+	background-color:#f9f9f9;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.MyButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9));
+	background:-moz-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-webkit-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-o-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-ms-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9',GradientType=0);
+	background-color:#e9e9e9;
+}
+.MyButton:active {
+	position:relative;
+	top:1px;
+}
+#submitForgot{
+ 
+   width:20%;
+   height : 28%;
+   
+  align:right;
+  font-family:myfont;
+
+			}
+#forgotPassword{
+
+
+  font-family:myfont;
+   text-decoration:none;
+   }
+a.linkLogin{ 
+color:#42bd99;
+}
+a.linkLogin:hover {
+  color: green;
+}
+#setNewUser{
+ font-family:myfont;
+   text-decoration:none;
+   
+} 
+#success{
+font-color : white;
+font-family:myfont;}
+#form-forgot{
+	width:35%;
+	margin-left: auto;
+margin-right: auto;
+margin-top: 15%;
+margin-bottom: auto;
+	height : 17%;
+	text-align:center;
+    border-spacing :25px;
+   border-radius: 25px;
+    padding-top : 30px;
+
+   align:center;
+   align : middle;
+   background-color:#42bd99;}
+   #form-register{
+	width:35%;
+	margin-left: auto;
+margin-right: auto;
+margin-top:1%;
+margin-bottom: auto;
+	height : auto;
+	text-align:center;
+    border-spacing :25px;
+   border-radius: 25px;
+    padding-top : 30px;
+
+   align:right;
+ 
+   background-color:#42bd99;}
+   #label{font-family:myfont;
+color:white;
+font-size:18px;
+}
+#registerHead{
+color:white;
+font-family:myfont;}
+#registerButton{
+font-family:myfont;
+width:25%;
+height:7%;
+margin-top:5%;
+margin-bottom:3%;}
+.input-register{
+ margin-top : 7px;
+   font-size:20px;
+ margin-left:auto;
+ margin-right:auto;
+  width:60%;
+  align:center;
+  
+  align:middle;}
+  #error{
+color:red;height:3px;
+font-family:myfont;
+  font-size:16px;}
+  #errorUsername{
+color:red;height:5px;
+font-family:myfont;
+  font-size:16px;}
+   #postBody{
+	width:35%;
+	margin-left: auto;
+margin-right: auto;
+margin-top: 12%;
+margin-bottom: auto;
+	height : 38%;
+	text-align:center;
+    border-spacing :25px;
+   border-radius: 25px;
+    padding-top : 30px;
+   align:center;
+   align : middle;
+   background-color:#42bd99;}
+   #bodyPst{
+   padding: 1em;
+	width:73%;
+	margin-right: 3%;
+	margin-left: auto;
+	margin-top:1em;
+	margin-bottom:0.1em;
+	background-color:#bfe9bf;
+	border-radius: 5px;
+}
+#profPic{
+   align:left; 
+   padding-right:25%;
+    
+  
+  
+ 
+   height:400px;}
+   #profLink{
+   text-decoration:none;
+   }
+   #profPic1{
+   align:right; 
+   border-spacing :25px;
+   border-radius: 25px;
+   text-decoration:none;
+   font-size:30px;
+   font-family:myfont;
+ background-color: #0a5640;
+  
+   width:100px;
+   height:100px;}
+   #profLink{
+   text-decoration:none;
+   }
+    #headPosts{
+  
+ 
+    hover { COLOR: white; TEXT-DECORATION: none; font-weight: none }}
+   a.headPosts:link{ color: #ffffff;}
+a.headPosts:hover {
+  color:green;
+   ;
+} 
+#postHead{
+
+   border-spacing :25px;
+   border-radius: 25px;
+   text-decoration:none;
+   font-size:30px;
+   font-family:myfont;
+ background-color: #0a5640;
+}
+@font-face {
+    font-family: myfont;
+    src: url(../fonts/BKOODKBD.TTF);
+}
+#mainPost{
+ border-spacing :25px;
+   border-radius: 25px;
+   text-decoration:none;
+   font-size:20px;
+   align:middle;
+   color:white;
+   padding-right:10px;
+   padding-left:10px;
+   font-family:myfont;
+ background-color: #0a5640;
+}
+#postFooter{
+align:right;
+font-family:myfont;
+padding-right:20px;
+font-size:17px;}
+#nameEditor{
+text-decoration:none;
+
+color:#010101;
+}
+#comment{
+}
+#testTable{
+ 
+  
+ 
+  
+ dir:rtl;
+   
+}
+#tableTr{
+ border-collapse:separate;
+    border: solid #ccc 1px;
+    border-radius: 25px;
+	 border-bottom-left-radius: 25px;    
+    border-bottom-right-radius: 25px;   
+align:middle;
+height:50px;
+font-size:20px;
+font-family:myfont;
+width:100%;
+
+
+}
+.testTable tr:nth-child(even) { /*(even) or (2n 0)*/
+	background: #8dd7c1;
+}
+.testTable tr:nth-child(odd) { /*(odd) or (2n 1)*/
+	background: #34977a;}
+	#comment{
+	color:white;
+	font-family:myfont;}
+	#addComment
+	{
+	  border-spacing :25px;
+   border-radius: 25px;
+   text-decoration:none;
+   font-size:20px;
+   font-family:myfont;
+}
+#star{
+width:20px;
+height:20px;}
+
+   
+
+

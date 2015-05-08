@@ -1,0 +1,48 @@
+<html>
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../css/style.css">
+	
+	</head>
+ 
+  
+ <form  align="right"id = "form-register" onsubmit="return required()" >
+ <h2 id ="registerHead">
+ فرم ثبت نام</h2>
+<label for="username" id = "label">نام کاربری</label><br>
+<input type="text"  class ="input-register" id= "username"  />
+	 <br>
+	<label for="name" id = "label">نام نمایشی</label><br> 
+	 <input type="text"  class ="input-register"  id="name"  
+     /> 
+<br>
+<label for="passwordd" id = "label">رمز عبور</label><br>
+<input type="password"  class ="input-register" id="passwordd"  >
+
+<br>
+<label for="passwordd" id = "label">تایید رمز عبور</label><br>
+<input type="password"  id="password" class ="input-register"  >
+
+<br>
+<label for="email" id = "label">پست الکترونیکی</label><br>
+<input type="email"  id="email" class ="input-register"  formnovalidate="formnovalidate" >
+
+<br>
+<label for="birth-day" id = "label">تاریخ تولد</label><br>
+<input type="date"  id="birth-day" class ="input-register"  >
+
+
+<p id = "error"></p>
+<input type="submit" value="تأیید" class="MyButton" id ="registerButton" >
+</form>
+<script src="../javaScript/non-empty.js"></script>
+
+
+
+
+
+</html>

@@ -1,0 +1,34 @@
+<html  dir='rtl'>
+ 
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../css/style.css">
+	</head>
+ 
+  
+ <form action="" align="middle"id = "form">
+ <label for="email" id = "labelEmail">نام کاربری</label><br>
+ <input type="email" class="form-control" id="email"  oninvalid="InvalidMsg(this);"  
+     />
+<br><br>
+<label for="passwordd" id = "labelPassword">رمز عبور</label><br>
+<input type="password" name="lastname" id="passwordd" >
+<br><br>
+<input type="submit" value="ورود" class="MyButton" id ="loginButton">
+<br><br><br>
+<a href ="forgotPass.html" id="forgotPassword" class ="linkLogin" >رمز عبور خود را فراموش کرده ام.</a>
+<br>
+<a href ="register.html" id="setNewUser" class ="linkLogin" >ساخت حساب کاربری</a>
+</form> 
+  
+<script>
+function InvalidMsg(textbox) {
+	var email = document.getElementById('email');
+	email.setCustomValidity('لطفاً ایمیل معتبر وارد کنید!');
+	
+}
+</script>
+ 
+  </html>
