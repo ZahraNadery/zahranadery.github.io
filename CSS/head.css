@@ -2,8 +2,12 @@
             Global
 *******************************/
 
-html {
-  font-size: 14px;
+html { 
+  background: url(../img/6-1024x669.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 
